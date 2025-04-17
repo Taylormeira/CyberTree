@@ -1,8 +1,8 @@
 :root {
     --color-text: dark;
     --color-description: rgb(255, 255, 255);
-    --color-gradient-one: #000000ee;
-    --color-gradient-two: #FFE100;
+    --color-gradient-one: #FFE100;
+    --color-gradient-two: #000000ee;
 }
 
 * {
@@ -18,10 +18,7 @@ html {
 
 body {
     font-family: Cambria, Cochin, sans-serif;
-    /*background: url("../assets/background.jpg");*/
     background-color: #54008C;
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 100%;
 }
 
@@ -41,8 +38,9 @@ body {
 }
 
 .profilePicture {
+    align-items: center;
     width: 200px;
-   border-radius: 50%;
+    border-radius: 50%;
 }
 
 .userName {
