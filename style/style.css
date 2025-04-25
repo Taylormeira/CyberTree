@@ -34,23 +34,28 @@ body {
 }
 
 .linearGradient {
-    background:  linear-gradient(to right, var(--color-gradient-one), var(--color-gradient-two));
+    background:  linear-gradient(in hsl shorter hue, var(--color-gradient-one), var(--color-gradient-two));
 }
 
 .profilePicture {
-    align-items: center;
     width: 200px;
     border-radius: 50%;
+    display: block;
+    margin: 0 auto;
 }
 
 .userName {
     font-weight: 400px;
     font-size: 2em;
+    display: block;
+    margin: 0 auto;
 }
 
 .description {
     font-size: 1.2em;
     color: var(--color-description);
+    display: block;
+    margin: 0 auto;
 }
 
 a {
