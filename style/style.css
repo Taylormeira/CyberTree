@@ -3,6 +3,7 @@
     --color-description: rgb(255, 255, 255);
     --color-gradient-one: #FFE100;
     --color-gradient-two: #000000ee;
+    --color-backGround:  #54008c;
 }
 
 * {
@@ -17,8 +18,8 @@ html {
 }
 
 body {
-    font-family: Cambria, Cochin, sans-serif;
-    background-color: #54008C;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(in hsl shorter hue,var(--color-gradient-two), var(--color-backGround))/*var(--color-backGround)*/;
     height: 100%;
 }
 
@@ -34,7 +35,7 @@ body {
 }
 
 .linearGradient {
-    background:  linear-gradient(in hsl shorter hue, var(--color-gradient-one), var(--color-gradient-two));
+    background: var(--color-gradient-two) /*linear-gradient(in hsl shorter hue, var(--color-gradient-one), var(--color-gradient-two))*/;
 }
 
 .profilePicture {
